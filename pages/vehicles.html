@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideEase Fleet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>RideEase</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="nav_link_container">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li ><a href="vehicles.html" class="active">Vehicles</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="Vehicles">
+            <div class="car-grid" >
+                <div class="car-item" >
+                    <h3>SUV </h3>
+                    <img src="images/suv.jpg" alt="Car 1">
+                </div>
+                <div class="car-item">
+                    <h3>Sedan</h3>
+                    <img src="images/sedan.jpg" alt="Car 2">
+                </div>
+                <div class="car-item">
+                    <h3>Van</h3>
+                    <img src="images/van.jpg" alt="Car 3">
+                </div>
+                <div class="car-item">
+                    <h3>Electric</h3>
+                    <img src="images/electric.jpg" alt="Car 4">
+                </div>
+                <div class="car-item">
+                    <h3>Off Road</h3>
+                    <img src="images/offRoad.jpg" alt="Car 5">
+                </div>
+                <div class="car-item">
+                    <h3>Luxury</h3>
+                    <img src="images/luxury.jpg " alt="Car 6">
+                </div>
+            </div>
+        </div>
+
+        <div class="book_car">
+            <h2>Book a Car</h2>
+            <form action="#" method="post">
+                <label for="pickupDate">Pickup Date:</label>
+                <input type="date" id="pickupDate" name="pickupDate" required>
+    
+                <label for="returnDate">Return Date:</label>
+                <input type="date" id="returnDate" name="returnDate" required>
+    
+                <label for="carType">Car Type:</label>
+                <select id="carType" name="carType" required>
+                    <option value="sedan">Sedan: 5 seater</option>
+                    <option value="suv8">SUV: 8 seater</option>
+                    <option value="suv7">SUV : 7 seater</option>
+                    <option value="van12">Van: 12 seater</option>
+                    <option value="van15">Van: 15 seater</option>
+                    <option value="electric4">Tesla: 4 seater</option>
+                    <option value="Offroad5">Off road: 5 seater</option>
+                    <option value="luxury2 ">Luxury: 2 seater</option>
+                    <option value="luxury4 ">Luxury: 4 Seater</option>
+
+    
+                </select>
+
+                <label for="additionalInfo">Additional Information:</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>Daily Rates</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Car Type</th>
+                        <th>Daily Rate</th>
+                        <th>With Chauffeur</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>Sedan: 5 seater</td>
+                    <td>Php 2500</td>
+                    <td>Php 3500</td>
+                </tr>
+                <tr>
+                    <td>SUV: 7 seater</td>
+                    <td>Php 4500</td>
+                    <td>Php 5500</td>
+                </tr>
+                <tr>
+                    <td>SUV: 8 seater</td>
+                    <td>Php 5000</td>
+                    <td>Php 6000</td>
+                </tr>
+                <tr>
+                    <td>Van: 12 seater</td>
+                    <td>Php 4000</td>
+                    <td>Php 5000</td>
+                </tr>
+                <tr>
+                    <td>Van: 15 seater</td>
+                    <td>Php 4500</td>
+                    <td>Php 5500</td>
+                </tr>
+                <tr>
+                    <td>Tesla: 4 seater</td>
+                    <td>Php 6000</td>
+                    <td>Php 7000</td>
+                </tr>
+                <tr>
+                    <td>Off road: 5 seater</td>
+                    <td>Php 6000</td>
+                    <td>Php 7000</td>
+                </tr>
+                <tr>
+                    <td>Luxury: 2 seater</td>
+                    <td>Php 20000</td>
+                    <td>Php 22000</td>
+                </tr>
+                <tr>
+                    <td>Luxury: 4 seater</td>
+                    <td>Php 20000</td>
+                    <td>Php 22000</td>
+                </tr>
+                <!-- Add more rows for other car types -->
+            </tbody>
+        </table>
+        </div>
+        <div id="Contact">
+            <div class="container">
+                <div class="content">
+                    <div class="left-side">
+                        <div class="address details">
+                            <div class="topic">Address</div>
+                            <div class="text-one">Vancouver, NP12</div>
+                            <div class="text-two">Matina, Davao City</div>
+                        </div>
+                        <div class="phone details">
+                            <div class="topic">Phone</div>
+                            <div class="text-one">+6392 1342 3454</div>
+                            <div class="text-two">+6397 1553 5987</div>
+                        </div>
+                        <div class="email details">
+                            <div class="topic">Email</div>
+                            <div class="text-one">RideEase@gmail.com</div>
+                            <div class="text-two">kalachuchi123@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="topic-text">Send us a message</div>
+                        <p>If you have any questions, you can send us message from here.</p>
+                        <form action="#">
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="input-box">
+                                <input type="email" placeholder="Enter your email">
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Send Now" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>
